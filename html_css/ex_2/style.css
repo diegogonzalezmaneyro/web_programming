@@ -1,0 +1,40 @@
+/* comienza selector */
+body {
+    /* comienza declaracion */
+    /* propiedad : valor */
+    background-color: aquamarine;
+    color: black;
+    /* Los colores se pueden definir con keyword como deeppink
+    o también como hexadecimal, como rgb o hsl funcional */
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+
+
+header {
+    height: 60px;
+    background-color: coral
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+}
+
+.left {
+    flex-grow: 1;
+    background-color: blueviolet;
+}
+
+.right {
+    flex-grow: 1;
+    background-color: crimson;
+}
+
+.twt {
+    flex-grow: 2;
+    background-color: darkolivegreen;
+    margin: 0 1em;
+}

@@ -1,0 +1,32 @@
+/* comienza selector */
+body {
+    /* comienza declaracion */
+    /* propiedad : valor */
+    background-color: aquamarine;
+    color: deeppink;
+    /* Los colores se pueden definir con keyword como deeppink
+    o también como hexadecimal, como rgb o hsl funcional */
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+a {
+    color: deeppink;
+}
+a:visited {
+    color: mediumvioletred;
+}
+.box {
+    /* Se definene las tres propiedades de una al borde: */
+    border: 3px solid deeppink;
+    box-sizing: border-box;
+    margin: 20px auto;
+    width: 200px;
+}
+.row {
+    padding: 5px;
+}
+.team-name {
+    background-color: deeppink;
+    color: aquamarine;
+}

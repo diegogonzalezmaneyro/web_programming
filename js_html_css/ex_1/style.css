@@ -1,0 +1,67 @@
+/* comienza selector */
+body {
+    /* comienza declaracion */
+    /* propiedad : valor */
+    background-color: aquamarine;
+    color: black;
+    /* Los colores se pueden definir con keyword como deeppink
+    o también como hexadecimal, como rgb o hsl funcional */
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+
+
+header {
+    height: 60px;
+    background-color: coral
+}
+
+section {
+    display: flex;
+    flex-direction: row; 
+    height: 800px;
+}
+
+@media(max-width: 800px){
+    section {
+        flex-direction: column;
+    }
+        
+    .left {
+        order: 2;
+    }
+    .twt {
+        order: 1;
+        background-color: chartreuse;
+    }
+    .right {
+        order: 3;
+    }
+}
+
+.left {
+    flex-grow: 1;
+    background-color: blueviolet;
+    margin: 1em 0;
+}
+
+.right {
+    flex-grow: 1;
+    background-color: crimson;
+    margin: 1em o;
+}
+
+.twt {
+    flex-grow: 2;
+    background-color: darkolivegreen;
+    margin: 1em 0;
+}
+
+.blueText {
+    color: blue;
+}
+
+.pinkText {
+    color: deeppink;
+}
