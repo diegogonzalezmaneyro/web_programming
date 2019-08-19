@@ -5,28 +5,26 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <head>
-        <script src="funcional_longest_str.js"></script>
+        <script src="functional_longest_str.js" defer></script>
         <title>
-            First layout settings
+            First node-html script
         </title>
     </head>
     <body>
         <header>
-            <strong>The First Header</strong>
+            <strong>The longest string</strong>
         </header>
-        <section class="all">
-            <aside class="left">
-                Trending topics
-            </aside>
-            <article class="twt">
-                make your <br />
-                <span class="blueText">Twitter</span>-like layout<br />
-                <span class="pinkText">responsive</span>!
-            </article>
-            <aside class="right">
-                Suggestions
-            </aside>
+        <p id="text" contenteditable="true">
+            escribi lo que más te guste por acá y cuando termines
+            apreta el boton y pinta de negro la palabra más larga
+            <!-- In a village of La Mancha, the name of which I have no desire to call in mind,
+            there lived not long since one of those gentlemen that keep a lance in the lance-rack,
+            an older buckler, a lean hack, and a greyhound for coursing.             -->
+        </p>
+        <button type="button" onclick="replaceLongestStrong()">Estrongueate la palabra más larga!</button> 
+        <p id="text2" contenteditable="true" onfocusout="replaceLongestStrong()">
+                En este caso cuando sacas el foco se pinta la más larga
+        </p>
 
-        </section>
     </body>
 </html>
