@@ -1,0 +1,22 @@
+/* comienza selector */
+body {
+    /* comienza declaracion */
+    /* propiedad : valor */
+    background-color: aquamarine;
+    color: black;
+    /* Los colores se pueden definir con keyword como deeppink
+    o también como hexadecimal, como rgb o hsl funcional */
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+
+
+
+header {
+    height: 60px;
+}
+
+p {
+    background-color: green
+}
+
